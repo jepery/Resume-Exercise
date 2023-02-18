@@ -5,3 +5,9 @@
     
     /* background-position: right; */
 }
+
+.logo-img{
+    width: 100px;
+    position: fixed;
+    border-color: black;
+}
