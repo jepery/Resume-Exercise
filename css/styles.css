@@ -1,13 +1,29 @@
-.background-img{
-    width: 720px;
-    height: 960px;
-    float: right;
-    
-    /* background-position: right; */
+body {
+  background-color: bisque;
+  background-image: url(https://github.com/jepery/Resume-Exercise/blob/main/images/jeff.jpg?raw=true);
+  width: 720px;
+  height: 960px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 40%;
+}
+.logo-img {
+  display: flex;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  align-items: center;
 }
 
-.logo-img{
-    width: 100px;
-    position: fixed;
-    border-color: black;
-}
+/* .background-img{
+    width: 720px;
+    height: 960px;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    background-position: right;
+} */
