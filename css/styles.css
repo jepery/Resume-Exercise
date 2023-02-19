@@ -8,6 +8,10 @@ body {
   background-size: 720px 960px;
 }
 
+h3{
+    padding-left: 2%;
+}
+
 .logo-img {
   display: inline-block;
   vertical-align: top;
