@@ -36,8 +36,13 @@ h3{
 table{
     width: 100%;
 }
-td{
+.td1{
     padding-left: 5%;
+    height: 50px;
+}
+
+.td2{
+    padding-left: 0%;
 }
 
 #logo {
