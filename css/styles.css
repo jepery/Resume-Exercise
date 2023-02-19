@@ -33,6 +33,13 @@ h3{
   max-width: 60%;
 }
 
+table{
+    width: 100%;
+}
+td{
+    padding-left: 5%;
+}
+
 #logo {
   width: 200px;
   border-radius: 50%;
