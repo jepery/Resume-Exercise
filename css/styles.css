@@ -73,8 +73,9 @@ table{
 footer{
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(31, 30, 30);
+    margin: 0em 0 0em 0;
 }
 @media screen and (max-width: 600px) {
 .logo-img{
