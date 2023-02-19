@@ -45,6 +45,25 @@ table{
     padding-left: 0%;
 }
 
+.exp-year{
+    width: 10%;
+    vertical-align: top;
+}
+.exp-title{
+    width: 70%;
+}
+.title-descript{
+    padding-left: 2%;
+    text-transform: lowercase;
+    font-size: small;
+}
+
+.other{
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
 #logo {
   width: 200px;
   border-radius: 50%;
