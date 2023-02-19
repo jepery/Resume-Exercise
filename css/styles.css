@@ -6,30 +6,27 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 720px 960px;
-  
 }
-
 
 .logo-img {
-  display: inline-block; vertical-align: top;
-  
-  
+  display: inline-block;
+  vertical-align: top;
 }
 
-.name-motto{
-    display: inline-block;
-    padding: 1%;
-    max-width: 60%;
+.name-motto {
+  display: inline-block;
+  padding: 1%;
+  max-width: 60%;
 }
 
-.objective{
-    padding: 1%;
-    max-width: 60%;
+.objective {
+  padding: 1%;
+  max-width: 60%;
 }
 
-.skills{
-    padding-left: 1%;
-    max-width: 60%;
+.skills {
+  padding: 1%;
+  max-width: 60%;
 }
 
 #logo {
@@ -38,6 +35,25 @@ body {
   border: 5px solid black;
 }
 
+@media screen and (max-width: 600px) {
+.logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}    
+h1, h2{
+    text-align: center;
+}
+.name-motto, .objective, .skills{
+    max-width: 100%;
+    background-color: #ffe4c4c7;
+}
+body{
+    background-position: center;
+}
+}
 /* .background-img{
     width: 720px;
     height: 960px;
